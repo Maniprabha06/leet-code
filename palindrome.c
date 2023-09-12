@@ -10,6 +10,7 @@ int isPalindrome(int x){
     long int digit,new=0,temp;
     temp=x;
     while(temp>0)
+    
     {
         digit=temp%10;
         new=new*10+digit;
