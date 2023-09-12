@@ -7,6 +7,7 @@ int isPalindrome(int x){
     {
         return "true";
     }
+    
     long int digit,new=0,temp;
     temp=x;
     while(temp>0)
