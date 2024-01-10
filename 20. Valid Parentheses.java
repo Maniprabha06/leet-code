@@ -11,7 +11,7 @@ class Solution {
             else {
                 if(stack.empty()){
                    return false;
-                }
+                } 
             if(s.charAt(i)==')'){
                 if(stack.pop()=='('){
                     continue;
